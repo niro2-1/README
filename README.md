@@ -41,4 +41,11 @@ To set up the staging environment, follow these steps:
    ```
 3. Access the staging environment at `http://localhost:3000`.
 
+## Filename Handling Instructions
+
+- Ensure that filenames are properly sanitized to prevent security vulnerabilities.
+- Use relative paths when referencing files within the project.
+- Implement error handling for file operations to manage missing or inaccessible files gracefully.
+- Consider using a consistent naming convention for files to enhance clarity and organization.
+
 Make sure to test all features thoroughly before deploying to production.
