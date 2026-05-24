@@ -29,3 +29,16 @@
 
 ## Deployment
 - Instructions for deployment will go here.
+
+## Staging Environment
+
+To set up the staging environment, follow these steps:
+
+1. Ensure you have the staging configuration file in the root directory.
+2. Run the following command to start the staging server:
+   ```bash
+   npm run staging
+   ```
+3. Access the staging environment at `http://localhost:3000`.
+
+Make sure to test all features thoroughly before deploying to production.
