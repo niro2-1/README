@@ -42,3 +42,7 @@ To set up the staging environment, follow these steps:
 3. Access the staging environment at `http://localhost:3000`.
 
 Make sure to test all features thoroughly before deploying to production.
+
+## Fix for Issue #3
+
+This section addresses the concerns raised in issue #3.
