@@ -24,3 +24,16 @@ app.get('/api/resource', (req, res) => {
     }
 });
 ```
+
+### Image Lazy-Loading
+
+Lazy-loading images can significantly improve page load times and overall performance. It defers the loading of images until they are needed, which is especially beneficial for pages with many images.
+
+#### Benefits:
+- Reduces initial load time
+- Saves bandwidth
+- Improves user experience
+
+#### Implementation:
+- Use the `loading="lazy"` attribute in `<img>` tags.
+- Consider using JavaScript libraries for more complex scenarios.
